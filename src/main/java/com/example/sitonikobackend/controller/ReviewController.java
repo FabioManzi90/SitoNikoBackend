@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/reviews")
 public class ReviewController {
-    rivate final ReviewService reviewService;
+    private final ReviewService reviewService;
 
     @Autowired
     public ReviewController(ReviewService reviewService) {
